@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="C8.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<nav>
+   <a href="A13.html">Home</a>
+    <a href="13a.html">About</a>
+    <a href="13b.html">Courses</a>
+    <a href="13c.html">Contact</a>
+</nav>
+
+<div class="contact">
+
+    <h2>Join Our Academy</h2>
+    <p>Contact us for more information.</p>
+
+    <form onsubmit="return validateForm()">
+
+        <input type="text" id="name" placeholder="Enter Your Name">
+
+        <input type="email" id="email" placeholder="Enter Your Email">
+
+        <select id="course">
+            <option value="">Select Course</option>
+            <option>Classical Singing</option>
+            <option>Tabla</option>
+            <option>Sitar</option>
+        </select>
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</div>
+
+<footer>
+    <p>© 2026 Sur Sangeet Academy</p>
+</footer>
+
+<script>
+function validateForm() {
+
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let course = document.getElementById("course").value;
+
+    if (name == "" || email == "" || course == "") {
+        alert("Please Fill All Fields");
+        return false;
+    }
+
+    alert("Thank You For Contacting Us!");
+    return false;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f5e6cf;
+    color: #4b3025;
+}
+
+header {
+    background-color: #713d2b;
+    color: #fff1d6;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #164e52;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: #e6b85c;
+}
+
+.home {
+    background-image: url("img14.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 70px 15px;
+}
+
+.home h2 {
+    font-size: 32px;
+}
+
+.home a {
+    background-color: #d5a441;
+    color: #39271e;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.content {
+    text-align: center;
+    padding: 30px;
+}
+
+.content h2 {
+    color: #934b32;
+}
+
+.content img {
+    border-radius: 10px;
+}
+
+.box {
+    display: inline-block;
+    background-color: #fff5e5;
+    padding: 15px;
+    margin: 12px;
+    border-radius: 10px;
+}
+
+.box img {
+    border-radius: 8px;
+}
+
+.contact {
+    background-image: url("img19.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 250px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact form {
+    background-color: rgba(255,255,255,0.9);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input, select, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 8px;
+}
+
+input[type="submit"] {
+    background-color: #934b32;
+    color: white;
+    border: none;
+}
+
+footer {
+    background-color: #39271e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
